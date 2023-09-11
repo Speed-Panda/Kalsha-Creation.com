@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalsha Creation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo3.png">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="coll-2">
+                <h1>Discover The new you!!</h1>
+                <p>Dress yourself well and elegant to achieve goals and perform well everyday.....</p>
+            <a href="" class="btn">Explore Now  &#9992;</a>
+            </div>
+        <div class="coll-2">
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="body">
+<div class="categories">
+    <div class="small-container">
+        <h2 class="tittle">Tunics</h2>
+        <div class="row">
+        <div class="col-3">
+           <a href="image_1.html"> <img src="images/IG1.jpg"></a>
+        </div>
+        <div class="col-3">
+            <img src="images/IG2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="images/Ig3.jpg">
+        </div>
+        </div>    
+    </div>
+</div>
+<div class="categories_2">
+    <div class="small-container_2">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product_1.jpg">
+            </div>
+            <div class="col-4">
+                <img src="images/product_2.jpg">
+            </div>
+            <div class="col-4">
+                <img src="images/product_3.jpg">
+            </div>
+        </div>
+    </div>
+    
+</div>
+    </div>
+<!--------------------------------------------Footer------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    
+                </div>  
+                <div class="footer-col-2">
+                    <h3>Address :</h3>
+                    <p>opp Dr. Ratilal Clinic, Chandika Chowk<br>Dumral Bazar<br>Gujarat , Nadiad 387001</p>
+                </div> 
+            </div>    
+        </div>
+    </div>
+<script>
+    var MenuItems = document.getElementById("menuitems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+        else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+    }
+</script>
+    
+</body>
+</html>
